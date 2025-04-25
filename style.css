@@ -560,6 +560,9 @@ nav svg{
   .comparison-table td {
     padding: 1.5rem 2rem;
   }
+  .text-slideshow-container{
+    height: 290px;
+  }
 }
   
 @media(max-width: 450px){
