@@ -6,6 +6,7 @@
     <title>HadiHani</title>
     <link rel="icon" href="img/icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <script src="https://kit.fontawesome.com/f62effcad7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -13,7 +14,7 @@
 </head>
 <body>
   <!--Start Navigation Bar-->
- <nav>
+ <nav class="fixed-top">
     <input type="checkbox" id="sidebar-active">
     <label for="sidebar-active" class="open-sidebar-button">
       <svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 -960 960 960" width="32"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
@@ -34,7 +35,7 @@
   <!--End Navigation Bar-->
 
   <!--Start Hero Section-->
-  <section class="py-10 hero-graphics p-0">
+  <section class="py-10 hero-graphics p-0 mt-5">
     <div class="container ps-0">
       <div class="row justify-content-start">
         <div class="col-12 col-lg-10 col-xl-6">
@@ -43,11 +44,11 @@
             <p class="mb-3 ms-lg-1 ms-5 mt-1 hh-text-secondary">Now In 3 Languages!</p>
           </div>          
         </div>
+        <div class="col-12 col-lg-6 col-xl-6">
+          <!--<img src="img/hero.png" class="hh-hero-graphics" alt="hero-graphics" style="height: 600px;width: 600px; margin-left: 5rem; margin-top: -5rem;">-->
+        </div>
       </div>
       <!--IMAGE-->
-      <div class="row">
-
-      </div>
       <!--IMAGE-->
       <div class="row ps-5 pe-5 pe-lg-0 ps-lg-0">
         <div class="col-6 col-lg-3 col-xl-2">
@@ -76,7 +77,7 @@
       </div>
       <div class="row">
         <div class="col-10 col-lg-4 col-xl-4 col-xxl-3 col-md-6">
-          <button type="button" class="button-9 ms-lg-2 ms-5" role="button">Get Your Own Quran Jar</button>
+          <button type="button" class="button-9 ms-lg-2 ms-5" role="button" style="width: 95%;">Get Your Own Quran Jar</button>
         </div> 
       </div>
     </div>
@@ -99,7 +100,7 @@
       <div class="row">
         <div class="col-12 mt-5">
           <div class="text-slideshow-container ms-lg-2 ms-5 my-2 mt-2">
-            <div class="text-slide active" style="font-family: Arima; font-size: 0.9em; line-height: 1.3;">"തീര്‍ച്ചയായും ഞെരുക്കത്തിന്‍റെ കൂടെ ഒരു എളുപ്പമുണ്ടാ-<br>യിരിക്കും." - Quran (94:6)</div>
+            <div class="text-slide active" style="font-family: Arima; font-size: 0.9em; line-height: 1.3;">"തീര്‍ച്ചയായും ഞെരുക്കത്തിന്‍റെ കൂടെ ഒരു എളുപ്പമുണ്ടായിരിക്കും." - Quran (94:6)</div>
             <div class="text-slide" style="font-family: Baskervville;">"indeed, with hardship comes ease." - Quran (94:6)</div>
             <div class="text-slide" style="font-family: 'Noto Serif Tamil'; font-size: 0.9em;">"நிச்சயமாக சிரமத்துடன் இலகு இருக்கிறது." - Quran (94:6)</div>
           </div>
@@ -155,29 +156,29 @@
 
   <!--Start Section 4 Product Gallery-->
   <section class="hh-bg-sec my-5">
-    <div class="container p-5 ps-0">
-      <div class="row justify-content-start">
-        <div class="col-12 col-lg-6 ms-lg-3">
-          <h2 class="hh-text-primary">Product Gallery</h2>
+    <div class="container p-5 ps-0 pe-0 ">
+      <div class="row">
+        <div class="col-12 ">
+          <h2 class="hh-text-primary text-center">Product Gallery</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col-12 ms-lg-3 mt-4">
+      <div class="row ms-0 ms-lg-0 me-0">
+        <div class="col-12 ms-lg-0 mt-4">
           <div class="slider-wrapper">
             <button id="prev-slide" class="slide-button material-symbols-rounded">
               chevron_left
             </button>
             <ul class="image-list">
-              <img class="image-item" src="img/pic.jpeg" alt="img-1" />
-              <img class="image-item" src="img/pic2.jpeg" alt="img-2" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-3" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-4" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-5" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-6" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-7" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-8" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-9" />
-              <img class="image-item" src="img/pic.jpeg" alt="img-10" />
+              <img class="image-item" src="img/1.jpg" alt="img-1" />
+
+              <img class="image-item" src="img/4.jpg" alt="img-4" />
+              <img class="image-item" src="img/5.jpg" alt="img-5" />
+              <img class="image-item" src="img/6.jpg" alt="img-6" />
+              <img class="image-item" src="img/7.jpg" alt="img-7" />
+              <img class="image-item" src="img/8.jpg" alt="img-8" />
+              <img class="image-item" src="img/9.jpg" alt="img-9" />
+              <img class="image-item" src="img/10.jpg" alt="img-10" />
+              <img class="image-item" src="img/11.jpg" alt="img-11" />
             </ul>
             <button id="next-slide" class="slide-button material-symbols-rounded">
               chevron_right
@@ -193,55 +194,252 @@
     </div>
   </section>
   <!--End Section 4 Product Gallery-->
-  <section class="my-5">
+
+  <!--Start Section 5 Why Choose Us-->
+  <section class="m-5">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="hh-text-primary">Why Choose Us</h1>
-        </div>
+      <div class="text-center mb-2-8 mb-lg-6">
+          <h2 class="display-18 display-md-16 display-lg-14 hh-text-primary">Why Choos Us?</h2>
       </div>
-      <div class="row my-4">
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-globe"></i></span>
-            <h6>Modern Design</h6>
-            <p>We use latest technology for the latest world because we know the demand of peoples.</p>
+      <div class="row align-items-center">
+          <div class="col-sm-6 col-lg-4 mb-2-9 mb-sm-0">
+              <div class="pr-md-3">
+                  <div class="text-center text-sm-right mb-2-9">
+                      <div class="mb-4 mt-3">
+                          <img src="https://www.bootdey.com/image/80x80/FFB6C1/000000" alt="..." class="rounded-circle">
+                      </div>
+                      <h4 class="hh-text-tertiary">Residential Cleaning</h4>
+                      <p class="display-30 mb-4 hh-text-tertiary-2">Roin gravida nibh vel velit auctor aliquetenean sollicitudin, lorem qui bibendum auctor.</p>
+                  </div>
+                  <div class="text-center text-sm-right">
+                      <div class="mb-4">
+                          <img src="https://www.bootdey.com/image/80x80/87CEFA/000000" alt="..." class="rounded-circle">
+                      </div>
+                      <h4 class="hh-text-tertiary">Commercial Cleaning</h4>
+                      <p class="display-30 mb-0 hh-text-tertiary-2">Gravida roin nibh vel velit auctor aliquetenean sollicitudin, lorem qui bibendum auctor.</p>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-anchor"></i></span>
-            <h6>Creative Design</h6>
-            <p>We are always creative and and always lisen our costomers and we mix these two things and make beast design.</p>
+          <div class="col-lg-4 d-none d-lg-block">
+              <div class="why-choose-center-image">
+                  <img src="https://www.bootdey.com/image/350x350/FF7F50/000000" alt="..." class="rounded-circle">
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-hourglass-half"></i></span>
-            <h6>24 x 7 User Support</h6>
-            <p>If our customer has any problem and any query we are always happy to help then.</p>
+          <div class="col-sm-6 col-lg-4">
+              <div class="pl-md-3">
+                  <div class="text-center text-sm-left mb-2-9">
+                      <div class="mb-4 mt-4">
+                          <img src="https://www.bootdey.com/image/80x80/8A2BE2/000000" alt="..." class="rounded-circle">
+                      </div>
+                      <h4 class="hh-text-tertiary">Washing services</h4>
+                      <p class="display-30 mb-4 hh-text-tertiary-2">Nibh roin gravida vel velit auctor aliquetenean sollicitudin, lorem qui bibendum auctor.</p>
+                  </div>
+  
+                  <div class="text-center text-sm-left">
+                      <div class="mb-4">
+                          <img src="https://www.bootdey.com/image/80x80/20B2AA/000000" alt="..." class="rounded-circle">
+                      </div>
+                      <h4 class="hh-text-tertiary">Carpet cleaning</h4>
+                      <p class="display-30 mb-0 hh-text-tertiary-2">Vel proin gravida nibh velit auctor aliquetenean sollicitudin, lorem qui bibendum auctor.</p>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-            <h6>Business Growth</h6>
-            <p>Everyone wants to live on top of the mountain, but all the happiness and growth occurs while you're climbing it</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_five"><i class="fa fa-upload"></i></span>
-            <h6>Market Strategy</h6>
-            <p>Holding back technology to preserve broken business models is like allowing blacksmiths to veto the internal combustion engine in order to protect their horseshoes.</p>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_six"><i class="fa fa-camera"></i></span>
-            <h6>Affordable cost</h6>
-            <p>Love is a special word, and I use it only when I mean it. You say the word too much and it becomes cheap.</p>
-          </div>
-        </div>
       </div>
-    </div>
+   </div>
   </section>
+    <!--End Section 5 Why Choose Us-->
+
+    <!--Start Section 6 What Our Ummah Says-->
+    <section class="hh-bg-sec py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2 class="hh-text-primary text-center">What Our Ummah Says</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mt-4">
+            <div class="wrapper text-center">
+              <i id="left" class="fa-solid fa-angle-left"></i>
+              <div class="carousel">
+                <img src="img/1.jpg" alt="img" draggable="false">
+                <img src="img/4.jpg" alt="img-4" draggable="false"/>
+                <img  src="img/5.jpg" alt="img-5" draggable="false"/>
+                <img  src="img/6.jpg" alt="img-6" draggable="false"/>
+                <img  src="img/7.jpg" alt="img-7" draggable="false"/>
+                <img  src="img/8.jpg" alt="img-8" draggable="false"/>
+                <img  src="img/9.jpg" alt="img-9" draggable="false"/>
+                <img src="img/10.jpg" alt="img-10" draggable="false"/>
+                <img src="img/11.jpg" alt="img-11" draggable="false"/>
+              </div>
+              <i id="right" class="fa-solid fa-angle-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Section 6 What Our Ummah Says-->
+
+    <!--Start Section 7 We are Social-->
+    <section>
+      <div class="container ps-0 my-5">
+       <div class="row">
+         <div class="col-12">
+           <h1 class="hh-text-primary text-center">We Are Social</h1>
+         </div>
+       </div>
+       <div class="row ms-0 ms-lg-0">
+         <div class="col-12 mt-4">
+           <div class="tagembed-widget" style="width:100%;height:100%" data-widget-id="2168030" data-tags="false"  view-url="https://widget.tagembed.com/2168030"></div><script src="https://widget.tagembed.com/embed.min.js" type="text/javascript"></script>
+         </div>
+       </div>
+     </div>
+    </section>
+    <!--End Section 7 We are Social-->
+
+    <!--Start Section 8 FAQ-->
+    <section class="hh-bg-sec py-5">
+      <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h2 class="mb-4 mt-5 text-center hh-text-primary">Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    What is your return policy?
+                                </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                We offer a 30-day return policy for all unused items in their original packaging.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                    How long does shipping take?
+                                </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Shipping typically takes 3-5 business days for domestic orders and 7-14 days for
+                                international orders.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                    Do you offer international shipping?
+                                </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Yes, we ship to most countries worldwide. Shipping costs and delivery times may vary
+                                depending on the destination.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                    How can I track my order?
+                                </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Once your order ships, you'll receive a tracking number via email. You can use this
+                                number to track your package on our website or the carrier's site.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--End Section 8 FAQ-->
+
+    <!--Start Footer-->
+    <footer class="footer pt-5">
+      <div class="container">
+          <div class="row g-4">
+              <!-- Company Info -->
+              <div class="col-lg-4 col-md-6">
+                  <h3 class="footer-title">About Company</h3>
+                  <p class="mb-4">We're dedicated to delivering innovative solutions that empower businesses to thrive in the digital age.</p>
+                  <div class="social-links mb-4">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                  </div>
+              </div>
+
+              <!-- Quick Links -->
+              <div class="col-lg-2 col-md-6">
+                  <h3 class="footer-title">Quick Links</h3>
+                  <ul class="footer-links">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Services</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                  </ul>
+              </div>
+
+              <!-- Support -->
+              <div class="col-lg-2 col-md-6">
+                  <h3 class="footer-title">Support</h3>
+                  <ul class="footer-links">
+                      <li><a href="#">Help Center</a></li>
+                      <li><a href="#">Community</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms of Service</a></li>
+                      <li><a href="#">Cookie Policy</a></li>
+                  </ul>
+              </div>
+
+              <!-- Newsletter -->
+              <div class="col-lg-4 col-md-6">
+                <h3 class="footer-title">Contact Info</h3>
+                <ul class="footer-links">
+                    <li class="mb-3 mt-3">
+                        <i class="fas fa-map-marker-alt me-2"></i>
+                        123 Business Street, New York, NY 10001
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-phone me-2"></i>
+                        <a href="tel:+1234567890" class="footer-link">+1 (234) 567-890</a>
+                    </li>
+                    <li class="mb-3">
+                        <i class="fas fa-envelope me-2"></i>
+                        <a href="mailto:contact@example.com" class="footer-link">contact@example.com</a>
+                    </li>
+                </ul>
+              </div>
+          </div>
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom mt-5">
+          <div class="container">
+              <div class="row py-3">
+                  <div class="col-md-6 text-center text-md-start">
+                      <p class="mb-0">&copy; 2025 HADIHANI. All rights reserved.</p>
+                  </div>
+                  <div class="col-md-6 text-center text-md-end">
+                      <p class="mb-0">Designed by  <a href="#">AjvadNtr</a></p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!--End Footer-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
-</html>        
-
+</html>
