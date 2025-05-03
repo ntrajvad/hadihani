@@ -97,7 +97,7 @@ const toggleArrowIcons = () => {
 };
 // Helper function to smoothly scroll the carousel
 const scrollCarousel = (direction) => {
-  const cardWidth = firstImage.clientWidth + 0; // Image width + margin
+  const cardWidth = firstImage.clientWidth + 1; // Image width + margin
   const maxScroll = carousel.scrollWidth - carousel.clientWidth;
   const scrollAmount = direction === "right" ? cardWidth : -cardWidth;
   carousel.scrollLeft = Math.min(Math.max(carousel.scrollLeft + scrollAmount, 0), maxScroll);
@@ -112,7 +112,7 @@ arrowIcons.forEach((icon) => {
 });
 // Automatic adjustment after dragging
 const autoCenterImage = () => {
-  const cardWidth = firstImage.clientWidth + 0;
+  const cardWidth = firstImage.clientWidth + 1;
   const offset = carousel.scrollLeft % cardWidth;
   const maxScroll = carousel.scrollWidth - carousel.clientWidth;
   if (carousel.scrollLeft > 0 && carousel.scrollLeft < maxScroll) {
@@ -167,4 +167,3 @@ let autoSlideInterval = setInterval(() => {
       scrollCarousel("right");
     }
   }, 2000); // Adjust time in milliseconds as needed
-  
