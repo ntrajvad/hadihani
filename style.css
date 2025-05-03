@@ -13,8 +13,9 @@
   font-family: Baskervville;
   src: url('fonts/Baskervville-Regular.ttf');
 }
+/*#f9f6ee*/
 :root{
-  --secondary-color: #f9f6ee;
+  --secondary-color: #FAF9F5;
   --primary-color: #9F741D;
   --accent-color: #FAF9F5;
 }
@@ -104,6 +105,7 @@ nav svg{
   font-family: Baskervville;
   color: var(--primary-color);
   font-size: 1.4rem;
+  font-weight: bolder;
 }
 .hh-text-tertiary-2{
   font-family: Poppins;
@@ -115,6 +117,11 @@ nav svg{
   font-size: 3rem;
   font-weight: 300;
   color: var(--primary-color);
+}
+
+.bg-shadow{
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.274);
+  border-radius: 6px;
 }
 
 .hh-bg-sec{
@@ -255,12 +262,13 @@ nav svg{
 .slider-wrapper .image-list {
   display: grid;
   grid-template-columns: repeat(10, 1fr);
-  gap: 18px;
+  gap: 10px;
   font-size: 0;
   list-style: none;
   margin-bottom: 30px;
   overflow-x: auto;
   scrollbar-width: none;
+  border-radius: 6px;
 }
 
 .slider-wrapper .image-list::-webkit-scrollbar {
@@ -270,6 +278,7 @@ nav svg{
   width: 325px;
   height: 400px;
   object-fit: cover;
+  border-radius: 6px;
 }
 .container .slider-scrollbar {
   height: 24px;
@@ -507,8 +516,9 @@ nav svg{
   height: 500px;
   object-fit: cover;
   user-select: none;
-  margin-left: 0px;
-  width: calc(100% / 3);
+  margin-left: 1px;
+  width: 250px;
+  border-radius: 6px;
 }
 .carousel img:first-child{
   margin-left: 0px;
@@ -647,7 +657,14 @@ nav svg{
 }
 
 .footer-bottom a:hover {
-  color: #ffffff;
+  color: #000000;
+}
+
+.hh-sec-2-img{
+  width: auto; 
+  height: 22rem !important; 
+  border-radius: 6px; 
+  margin-left: 14rem !important;
 }
 
 @media(max-width: 966px){
@@ -737,12 +754,25 @@ nav svg{
   .footer-bottom {
     height: 4rem;
   }
+  .footer-title{
+    text-align: center;
+  }
+  .footer-title::after{
+    left: 9.5rem;
+  }
+  .hh-text-center{
+    text-align: center;
+  }
+  .footer-links{
+    text-align: center;
+    margin-top: 2rem;
+  }
 
 }
   
 @media(max-width: 450px){
   .button-9{
-    font-size: 12px;
+    font-size: 18px;
     width: 111%;
   }
   .logo{
@@ -756,5 +786,10 @@ nav svg{
   }
   .wrapper i{
     display: none !important;
+  }
+  .hh-sec-2-img{
+    margin-left: 0.1rem !important;
+    margin-top: 0rem;
+    margin-bottom: -2rem;
   }
 }
