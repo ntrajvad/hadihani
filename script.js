@@ -167,3 +167,4 @@ let autoSlideInterval = setInterval(() => {
       scrollCarousel("right");
     }
   }, 2000); // Adjust time in milliseconds as needed
+  
